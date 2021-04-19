@@ -1,0 +1,1 @@
+This is the single post template here
