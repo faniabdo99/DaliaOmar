@@ -11,3 +11,4 @@ function daliaomar_files(){
     wp_enqueue_script('dalia_fontawesome_js' , '//kit.fontawesome.com/aa028fd33c.js"' , [] , date('ymds'));
 }
 add_action('wp_enqueue_scripts','daliaomar_files');
+add_theme_support( 'title-tag' );
