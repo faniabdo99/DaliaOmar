@@ -1,1 +1,3 @@
-Welcome to the theme
+<?php
+    wp_head();
+?>
