@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Josefin+Sans:wght@300;400;700&display=swap);
+@font-face {
+  font-family: "Benilla Calligraphy";
+  src: url("../fonts/benilla_calligraphy.ttf");
+}
 body {
   font-family: "Josefin Sans", sans-serif;
   font-family: 18px;
@@ -69,6 +73,75 @@ footer .footer-copywrites {
 
 .hero-section {
   height: 600px;
+}
+.hero-section .dark-overlap {
+  height: 600px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 100px 50px;
+}
+.hero-section .dark-overlap .hero-content h1 {
+  color: #fff;
+  font-size: 4.5em;
+  font-weight: bold;
+}
+
+.dalia-button {
+  padding: 10px 30px;
+  color: #15556a;
+  border-radius: 50px;
+  position: relative;
+  background: url("../icons/buttons-background.jpeg") no-repeat center center;
+}
+
+.text-brand {
+  color: #15556a !important;
+}
+
+.content-section {
+  padding: 100px 0;
+}
+.content-section .section-header {
+  color: #15556a;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.latest-news-section {
+  background-color: #f2f1eb;
+}
+.latest-news-section .latest-news-card {
+  position: relative;
+}
+.latest-news-section .latest-news-card img {
+  height: 550px;
+  width: 100%;
+}
+.latest-news-section .latest-news-card .card-content {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 550px;
+  text-align: center;
+  padding: 60px;
+}
+.latest-news-section .latest-news-card .card-content h3 {
+  font-size: 1.5em;
+  color: #15556a;
+}
+.latest-news-section .latest-news-card .card-content p {
+  font-size: 1.3em;
+  font-family: "Benilla Calligraphy", "sans-serif";
+  color: #fff;
+}
+.latest-news-section .latest-news-card .card-sub-title {
+  text-align: center;
+  color: #15556a;
+  margin-top: 20px;
 }
 
 #homepage-hero-section {

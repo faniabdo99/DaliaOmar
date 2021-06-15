@@ -1,3 +1,70 @@
 .hero-section{
     height: 600px;
+    .dark-overlap{
+        height: 600px;
+        width: 100%;
+        background-color: rgba(0,0,0,0.6);
+        padding: 100px 50px;
+        .hero-content{
+            h1{
+                color:#fff;
+                font-size: 4.5em;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.dalia-button{
+    padding: 10px 30px;
+    color: $brand;
+    border-radius: 50px;
+    position: relative;
+    background: url('../icons/buttons-background.jpeg') no-repeat center center;
+}
+.text-brand{
+    color: $brand !important;
+}
+.content-section{
+    padding: 100px 0;
+    .section-header{
+        color:$brand;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+}
+.latest-news-section{
+    background-color: $lightyellow ;
+    .latest-news-card{
+        position: relative;
+        img{
+            height: 550px;
+            width: 100%;
+        }
+        .card-content{
+            background-color:rgba(0,0,0,0.3);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 550px;
+            text-align: center;
+            padding:60px;
+            h3{
+                font-size: 1.5em;
+                color: $brand;
+            }
+            p{
+                font-size: 1.3em;
+                font-family: 'Benilla Calligraphy' , 'sans-serif';
+                color: #fff;
+            }
+        }
+        .card-sub-title{
+            text-align: center;
+            color: $brand;
+            margin-top: 20px;
+        }
+    }
 }
