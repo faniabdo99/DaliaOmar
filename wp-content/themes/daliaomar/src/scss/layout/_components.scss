@@ -1,25 +1,31 @@
 .hero-section{
-    height: 600px;
+    height: 800px;
     .dark-overlap{
-        height: 600px;
+        height: 800px;
         width: 100%;
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0,0,0,0.3);
         padding: 100px 50px;
         .hero-content{
             h1{
-                color:#fff;
-                font-size: 4.5em;
+                color:$brand;
+                font-size: 3.5em;
                 font-weight: bold;
+                span{
+                    font-family: 'Benilla Calligraphy' , 'sans-serif';
+                    color: #0cc8f4;
+                    font-size: 0.9em;
+                }
             }
         }
     }
 }
 .dalia-button{
-    padding: 10px 30px;
+    padding: 30px 100px;
     color: $brand;
     border-radius: 50px;
     position: relative;
-    background: url('../icons/buttons-background.jpeg') no-repeat center center;
+    background: url('../icons/buttons-background.png') no-repeat center center;
+    background-size: contain;
 }
 .text-brand{
     color: $brand !important;
@@ -29,14 +35,13 @@
     .section-header{
         color:$brand;
         text-transform: uppercase;
-        font-size: 1.5em;
-        font-weight: bold;
+        font-size: 2.5em;
         margin-bottom: 40px;
     }
 }
-.latest-news-section{
+.wellines-hub{
     background-color: $lightyellow ;
-    .latest-news-card{
+    .wellines-hub-card{
         position: relative;
         img{
             height: 550px;
@@ -65,6 +70,58 @@
             text-align: center;
             color: $brand;
             margin-top: 20px;
+        }
+    }
+}
+.features-slider{
+    background-color:$lightyellow;
+    .owl-dots{
+        display: none !important;
+    }
+}
+.customers-reviews{
+    .owl-carousel .owl-item img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: inline;
+        margin-bottom: 25px;
+    }
+    .owl-carousel .owl-item strong{
+        color: $brand;
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .owl-carousel .owl-item p{
+        color: $brand;
+        text-transform: uppercase;
+        font-size: 1em;
+    }
+    .owl-dots{
+        display: none !important;
+    }
+    .owl-nav{
+        div{
+            background-color: $brand;
+        }
+    }
+}
+.classes-section{
+    background: $lightyellow;
+    .class-card{
+        text-align: center;
+        img{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 30px;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+            li{
+                margin-bottom: 30px;
+                color: $brand;
+            }
         }
     }
 }

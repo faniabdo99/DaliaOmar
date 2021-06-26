@@ -10,7 +10,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #15556a;
+  color: #14556a;
 }
 
 .upper-nav {
@@ -41,7 +41,7 @@ nav .nav-item {
   text-align: center;
 }
 nav .nav-item .nav-link {
-  color: #15556a;
+  color: #14556a;
   font-size: 0.8em;
   margin-left: 30px;
 }
@@ -72,54 +72,59 @@ footer .footer-copywrites {
 }
 
 .hero-section {
-  height: 600px;
+  height: 800px;
 }
 .hero-section .dark-overlap {
-  height: 600px;
+  height: 800px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 100px 50px;
 }
 .hero-section .dark-overlap .hero-content h1 {
-  color: #fff;
-  font-size: 4.5em;
+  color: #14556a;
+  font-size: 3.5em;
   font-weight: bold;
+}
+.hero-section .dark-overlap .hero-content h1 span {
+  font-family: "Benilla Calligraphy", "sans-serif";
+  color: #0cc8f4;
+  font-size: 0.9em;
 }
 
 .dalia-button {
-  padding: 10px 30px;
-  color: #15556a;
+  padding: 30px 100px;
+  color: #14556a;
   border-radius: 50px;
   position: relative;
-  background: url("../icons/buttons-background.jpeg") no-repeat center center;
+  background: url("../icons/buttons-background.png") no-repeat center center;
+  background-size: contain;
 }
 
 .text-brand {
-  color: #15556a !important;
+  color: #14556a !important;
 }
 
 .content-section {
   padding: 100px 0;
 }
 .content-section .section-header {
-  color: #15556a;
+  color: #14556a;
   text-transform: uppercase;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 2.5em;
   margin-bottom: 40px;
 }
 
-.latest-news-section {
+.wellines-hub {
   background-color: #f2f1eb;
 }
-.latest-news-section .latest-news-card {
+.wellines-hub .wellines-hub-card {
   position: relative;
 }
-.latest-news-section .latest-news-card img {
+.wellines-hub .wellines-hub-card img {
   height: 550px;
   width: 100%;
 }
-.latest-news-section .latest-news-card .card-content {
+.wellines-hub .wellines-hub-card .card-content {
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
@@ -129,19 +134,70 @@ footer .footer-copywrites {
   text-align: center;
   padding: 60px;
 }
-.latest-news-section .latest-news-card .card-content h3 {
+.wellines-hub .wellines-hub-card .card-content h3 {
   font-size: 1.5em;
-  color: #15556a;
+  color: #14556a;
 }
-.latest-news-section .latest-news-card .card-content p {
+.wellines-hub .wellines-hub-card .card-content p {
   font-size: 1.3em;
   font-family: "Benilla Calligraphy", "sans-serif";
   color: #fff;
 }
-.latest-news-section .latest-news-card .card-sub-title {
+.wellines-hub .wellines-hub-card .card-sub-title {
   text-align: center;
-  color: #15556a;
+  color: #14556a;
   margin-top: 20px;
+}
+
+.features-slider {
+  background-color: #f2f1eb;
+}
+.features-slider .owl-dots {
+  display: none !important;
+}
+
+.customers-reviews .owl-carousel .owl-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline;
+  margin-bottom: 25px;
+}
+.customers-reviews .owl-carousel .owl-item strong {
+  color: #14556a;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+.customers-reviews .owl-carousel .owl-item p {
+  color: #14556a;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.customers-reviews .owl-dots {
+  display: none !important;
+}
+.customers-reviews .owl-nav div {
+  background-color: #14556a;
+}
+
+.classes-section {
+  background: #f2f1eb;
+}
+.classes-section .class-card {
+  text-align: center;
+}
+.classes-section .class-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.classes-section .class-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+.classes-section .class-card ul li {
+  margin-bottom: 30px;
+  color: #14556a;
 }
 
 #homepage-hero-section {
