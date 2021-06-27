@@ -13,7 +13,6 @@
         </div>
     </div>
 </section>
-
 <section class="features-slider">
     <div class="container">
         <div class="row">
@@ -62,6 +61,22 @@
                     </div>
                     <p class="card-sub-title">ZUMBA CLASSES</p>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content-section programs-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section-header text-center">HEALTH & NUTRITION PROGRAMS</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <?php
+                    echo do_shortcode('[lgx-carousel cat="programs" bgcolor="#f2f1eb" itemdesk="4" itemlarge="4" dotes="no"]');
+                ?>
             </div>
         </div>
     </div>
