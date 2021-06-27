@@ -1,20 +1,15 @@
 .hero-section{
     height: 800px;
-    .dark-overlap{
-        height: 800px;
-        width: 100%;
-        background-color: rgba(0,0,0,0.3);
-        padding: 100px 50px;
-        .hero-content{
-            h1{
-                color:$brand;
-                font-size: 3.5em;
-                font-weight: bold;
-                span{
-                    font-family: 'Benilla Calligraphy' , 'sans-serif';
-                    color: #0cc8f4;
-                    font-size: 0.9em;
-                }
+    padding: 100px 50px;
+    .hero-content{
+        h1{
+            color:$brand;
+            font-size: 3.5em;
+            font-weight: bold;
+            span{
+                font-family: 'Benilla Calligraphy' , 'sans-serif';
+                color: #0cc8f4;
+                font-size: 0.9em;
             }
         }
     }

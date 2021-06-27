@@ -1,13 +1,11 @@
 <?php get_header(); ?>
 <section class="hero-section" id="homepage-hero-section">
-    <div class="dark-overlap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex align-items-center">
-                    <div class="hero-content text-center">
-                        <h1 class="wow animate__animated animate__fadeInLeft mb-5">SHIFT YOUR MINDSET,<br>CHANGE YOUR HABITS,<br>BUILD YOUR <br><span>Lifestyle</span></h1>
-                        <a class="dalia-button wow animate__animated animate__fadeInLeft" href="#">BOOK & CONSULTAION</a>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center">
+                <div class="hero-content text-center">
+                    <h1 class="wow animate__animated animate__fadeInLeft mb-5">SHIFT YOUR MINDSET,<br>CHANGE YOUR HABITS,<br>BUILD YOUR <br><span>Lifestyle</span></h1>
+                    <a class="dalia-button wow animate__animated animate__fadeInLeft" href="#">BOOK & CONSULTAION</a>
                 </div>
             </div>
         </div>

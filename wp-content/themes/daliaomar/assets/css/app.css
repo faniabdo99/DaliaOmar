@@ -73,19 +73,14 @@ footer .footer-copywrites {
 
 .hero-section {
   height: 800px;
-}
-.hero-section .dark-overlap {
-  height: 800px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
   padding: 100px 50px;
 }
-.hero-section .dark-overlap .hero-content h1 {
+.hero-section .hero-content h1 {
   color: #14556a;
   font-size: 3.5em;
   font-weight: bold;
 }
-.hero-section .dark-overlap .hero-content h1 span {
+.hero-section .hero-content h1 span {
   font-family: "Benilla Calligraphy", "sans-serif";
   color: #0cc8f4;
   font-size: 0.9em;
