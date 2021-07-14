@@ -33,10 +33,10 @@
                         <a class="nav-link" href="/excerscise">EXERCISE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WELLNESS HUB</a>
+                        <a class="nav-link" href="/wellness-hub">WELLNESS HUB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
+                        <a class="nav-link" href="/contact-us">CONTACT US</a>
                     </li>
                 </ul>
             </div>
