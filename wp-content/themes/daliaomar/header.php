@@ -19,24 +19,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link active" aria-current="page" href="/">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">MEET DALIA</a>
+                        <a class="nav-link" href="/about-us">MEET DALIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HEALTH & NUTRITION COACHING</a>
+                        <a class="nav-link" href="/health-nutrition-coaching">HEALTH & NUTRITION COACHING</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">EXERCISE</a>
+                        <a class="nav-link" href="/excerscise">EXERCISE</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">WELLNESS HUB</a>
+                        <a class="nav-link" href="/wellness-hub">WELLNESS HUB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
+                        <a class="nav-link" href="/contact-us">CONTACT US</a>
                     </li>
                 </ul>
             </div>
