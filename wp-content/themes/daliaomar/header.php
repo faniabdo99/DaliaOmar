@@ -7,7 +7,7 @@
     <div class="upper-nav">
         <!-- <a class="newsletter-signup" href="#"><i class="fas fa-newspaper"></i> SIGN UP FOR MY NEWSLETTER</a>
         <br> -->
-        <a class="logo-img" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.png" alt="Dalia Omar Logo" title="Dalia Omar" ></a>
+        <a class="logo-img" href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.png" alt="Dalia Omar" title="Dalia Omar" ></a>
     </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
