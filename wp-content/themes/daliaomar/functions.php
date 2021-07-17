@@ -14,4 +14,5 @@ function daliaomar_files(){
     wp_enqueue_script('dalia_wow_js' , get_template_directory_uri().'/assets/js/wow.min.js' , [] , date('ymds'));
 }
 add_action('wp_enqueue_scripts','daliaomar_files');
+add_theme_support( 'post-thumbnails' );
 add_theme_support( 'title-tag' );
