@@ -1,0 +1,60 @@
+.single-program-page-item{
+    background-size: cover;
+    background-position: top top;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    img{
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        border-radius: 15px;
+    }
+    .single-program-card-content{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        padding-bottom: 0;
+        h3{
+            width: 60%;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.4em;
+            margin: 0 auto 15px auto;
+            padding: 10px 0px;
+            border-top: 2px solid #fff;
+            border-bottom: 2px solid #fff;
+        }
+        a{
+            color:#fff;
+            display: block;
+            text-align: center;
+        }
+    }
+}
+.program-content{
+    margin-bottom: 50px;
+    h2,strong{
+        color:#0CC8F4;
+    }
+    p{
+        margin-bottom: 15px;
+        line-height: 2em;
+    }
+    .book-now-btn{
+        border:2px solid #14556A;
+        padding: 10px 20px;
+        color: #14556A;
+        border-radius: 6px;
+        transition: all ease 0.3s;
+        &:hover{
+            background-color: #14556A;
+            transition: all ease 0.3s;
+            color: #fff;
+        }
+    }
+}

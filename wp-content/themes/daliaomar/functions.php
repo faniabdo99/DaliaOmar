@@ -16,3 +16,7 @@ function daliaomar_files(){
 add_action('wp_enqueue_scripts','daliaomar_files');
 add_theme_support( 'post-thumbnails' );
 add_theme_support( 'title-tag' );
+
+
+//Custom Shortcode to Show the Programs List.
+include('shortcodes.php');
