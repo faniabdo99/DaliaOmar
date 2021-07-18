@@ -50,10 +50,6 @@
                 <div class="col-lg-8 program-content">
                     <h2>'.get_the_title().'</h2>
                     '.get_the_content().'
-                    <br>
-                    <div class="text-center">
-                        <a href="/book-a-program/?program='.get_post_field( 'post_name', get_the_ID()).'" class="book-now-btn">BOOK NOW</a>
-                    </div>
                 </div>
             </div>
         </div>';
