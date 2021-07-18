@@ -61,7 +61,7 @@
                             '.get_the_content().'
                             <br>
                             <div class="text-center">
-                                <a href="#" class="book-now-btn">BOOK NOW</a>
+                                <a href="/book-a-program/?program='.get_post_field( 'post_name', get_the_ID()).'" class="book-now-btn">BOOK NOW</a>
                             </div>
                         </div>
                     </div>
