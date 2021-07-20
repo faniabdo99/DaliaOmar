@@ -2,7 +2,10 @@ footer{
     background-color: $lightgray;
     padding: 35px;
     .footer-section{
-        h5{font-weight: bold;}
+        h5{
+            font-weight: bold;
+            color: #14556a;
+        }
         p{font-size:0.9em;}
         ul{
             list-style-type: none;
@@ -10,6 +13,32 @@ footer{
                 margin-bottom: 10px;
                 a{
                     font-size: 0.9em;
+                }
+            }
+        }
+        .footer-social-media{
+            padding: 0;
+            li{
+                padding: 15px;
+                border-radius: 4px;
+                text-align: center;
+                &.footer-instagram{
+                    a{
+                        display: flex;
+                        align-items: center;
+                        color: #fff;
+                        i{
+                            flex:1;
+                        }
+                        span{
+                            flex: 5;
+                        }
+                    }
+                    background: #f09433; 
+                    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+                    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
                 }
             }
         }

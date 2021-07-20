@@ -26,15 +26,17 @@
                 </div>
                 <div class="col-lg-4 col-12">
                     <div class="footer-section">
-                        <h5>NEWSLETTER FORM</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis sed expedita neque beatae vitae deleniti quidem consequatur excepturi non asperiores? Voluptatum sed laboriosam dicta placeat.</p>
+                        <h5>FOLLOW ME</h5>
+                        <ul class="footer-social-media">
+                            <li class="footer-instagram"><a href="https://www.instagram.com/daliaa_omar/" target="_blank"><i class="fab fa-instagram"></i> <span>@daliaa_omar</span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="footer-copywrites">
-                        <p>Copywrites 2021 - All Rights Reserved | Created with love by <a href="https://picturate.me" target="_blank">Picturate.Me</a></p>
+                        <p>Copywrites <?php echo date('Y'); ?> - All Rights Reserved | Created with love by <a href="https://picturate.me" target="_blank">Picturate.Me</a></p>
                     </div>
                 </div>
             </div>
