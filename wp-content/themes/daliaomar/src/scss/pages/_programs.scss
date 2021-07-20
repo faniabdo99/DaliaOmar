@@ -49,7 +49,8 @@
         color: #14556a;
     }
     .extra-note{
-        color: #46a28d;
+        color: #46a28d !important;
+        text-transform: capitalize !important;
     }
     .book-now-btn{
         border:2px solid #14556A;
