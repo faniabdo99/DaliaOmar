@@ -40,10 +40,16 @@
     margin-bottom: 50px;
     h2,strong{
         color:#0CC8F4;
+        text-transform: uppercase;
+        margin-bottom: 0;
     }
     p{
         margin-bottom: 15px;
         line-height: 2em;
+        color: #14556a;
+    }
+    .extra-note{
+        color: #46a28d;
     }
     .book-now-btn{
         border:2px solid #14556A;
