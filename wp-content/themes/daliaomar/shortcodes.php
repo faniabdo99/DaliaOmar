@@ -11,7 +11,7 @@
             while($query->have_posts()){
                 $query->the_post();
                 $Programs .= '
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
                         <div class="single-program-card-content">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 program-content">
+                <div class="col-lg-8 col-12 program-content">
                     <h2>'.get_the_title().'</h2>
                     '.get_the_content().'
                     <br>
@@ -39,7 +39,7 @@
         return '
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-12">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
                         <div class="single-program-card-content">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 program-content">
+                <div class="col-lg-8 col-12 program-content">
                     <h2>'.get_the_title().'</h2>
                     <br>
                     '.get_the_content().'
