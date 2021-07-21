@@ -11,7 +11,7 @@
             while($query->have_posts()){
                 $query->the_post();
                 $Programs .= '
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 mb-4">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
                         <div class="single-program-card-content">
@@ -39,7 +39,7 @@
         return '
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-12 mb-4">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
                         <div class="single-program-card-content">
