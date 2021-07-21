@@ -36,7 +36,34 @@ nav {
       color: #14556a;
       font-size: 0.8em;
       margin-left: 30px; }
+  nav .navbar-toggler {
+    text-align: center;
+    color: #14556a;
+    display: none; }
 
+@media (max-width: 768px) {
+  .upper-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px; }
+    .upper-nav a.logo-img img {
+      width: 150px;
+      height: auto; }
+
+  nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+    nav .nav-item {
+      width: 100%;
+      text-align: center;
+      margin: auto; }
+      nav .nav-item .nav-link {
+        color: #14556a;
+        font-size: 0.8em;
+        margin-left: 30px;
+        text-align: center; }
+    nav .navbar-toggler {
+      display: block; } }
 footer {
   background-color: #f2f1eb;
   padding: 35px; }

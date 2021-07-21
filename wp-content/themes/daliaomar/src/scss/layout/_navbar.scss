@@ -30,4 +30,40 @@ nav{
             margin-left: 30px;
         }
     } 
+    .navbar-toggler{
+        text-align: center;
+        color: $brand;
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .upper-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        a.logo-img{
+            img{
+                width: 150px;
+                height: auto;
+            }
+        }
+    }
+    nav{
+        padding-top:0 !important; 
+        padding-bottom:0 !important;
+        .nav-item{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            .nav-link{
+                color: $brand;
+                font-size: 0.8em;
+                margin-left: 30px;
+                text-align: center;
+            }
+        } 
+        .navbar-toggler{
+            display: block;
+        }
+    }
 }
