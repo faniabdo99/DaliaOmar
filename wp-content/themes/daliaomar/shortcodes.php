@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-lg-8 col-12 program-content">
                     <h2>'.get_the_title().'</h2>
-                    <br><br>
+                    <br>
                     '.get_the_content().'
                     <br>
                     <a href="'.get_the_permalink().'" class="book-now-btn">BOOK NOW</a>

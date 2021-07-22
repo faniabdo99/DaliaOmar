@@ -292,8 +292,12 @@ footer {
 
 .program-content {
   margin-bottom: 50px; }
-  .program-content h2, .program-content strong {
+  .program-content h2 {
     color: #0CC8F4;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  .program-content strong {
+    color: #46a28d;
     text-transform: uppercase;
     margin-bottom: 0; }
   .program-content p {
