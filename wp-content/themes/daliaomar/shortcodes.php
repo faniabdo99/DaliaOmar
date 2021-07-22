@@ -23,7 +23,6 @@
                     <h2>'.get_the_title().'</h2>
                     <br><br>
                     '.get_the_content().'
-                    <p class="extra-note"><strong>*For 2 months and 3 months programs: Exercise:</strong></p>
                     <br>
                     <a href="'.get_the_permalink().'" class="book-now-btn">BOOK NOW</a>
                 </div>';
