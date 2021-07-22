@@ -14,7 +14,7 @@
                 <div class="col-lg-4 col-12 mb-4">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
-                        <div class="single-program-card-content text-center">
+                        <div class="single-program-card-content text-center text-uppercase">
                             <h3>'.get_the_title().'</h3>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                 <div class="col-lg-4 col-12 mb-4">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
-                        <div class="single-program-card-content">
+                        <div class="single-program-card-content text-center text-uppercase">
                             <h3 class="text-center">'.get_the_title().'</h3>
                         </div>
                     </div>
