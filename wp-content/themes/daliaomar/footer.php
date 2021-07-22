@@ -28,7 +28,7 @@
                     <div class="footer-section">
                         <h5>FOLLOW ME</h5>
                         <ul class="footer-social-media">
-                            <li class="footer-instagram"><a href="https://www.instagram.com/daliaa_omar/" target="_blank"><i class="fab fa-instagram"></i> <span>@daliaa_omar</span></a></li>
+                            <li class="footer-instagram"><a href="https://www.instagram.com/daliaa_omar/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

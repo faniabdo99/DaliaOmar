@@ -29,6 +29,7 @@
                         <a class="nav-link" href="/health-nutrition-coaching">HEALTH & NUTRITION COACHING</a>
                     </li>
                 </ul>
+                <a class="logo-img" href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.png" alt="Dalia Omar" title="Dalia Omar" ></a>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/excerscise">EXERCISE</a>
