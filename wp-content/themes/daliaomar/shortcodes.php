@@ -47,9 +47,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-12 program-content">
-                    <h2>'.get_the_title().'</h2>
-                    <br><br>
-                    '.get_the_content().'
+                    <h2 class="program-selected">PROGRAM SELECTED</h2>
                 </div>
             </div>
         </div>';
