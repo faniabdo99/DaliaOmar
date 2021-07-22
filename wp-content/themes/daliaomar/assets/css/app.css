@@ -276,9 +276,6 @@ footer {
     left: 0;
     right: 0;
     padding-bottom: 0; }
-    .single-program-page-item .single-program-card-content h2.program-selected {
-      color: #14556A;
-      text-transform: uppercase; }
     .single-program-page-item .single-program-card-content h3 {
       width: 60%;
       color: #fff;
@@ -295,6 +292,9 @@ footer {
 
 .program-content {
   margin-bottom: 50px; }
+  .program-content h2.program-selected {
+    color: #14556A;
+    text-transform: uppercase; }
   .program-content h2 {
     color: #0CC8F4;
     text-transform: uppercase;

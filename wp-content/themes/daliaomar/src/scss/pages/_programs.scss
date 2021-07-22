@@ -19,10 +19,7 @@
         left: 0;
         right: 0;
         padding-bottom: 0;
-        h2.program-selected{
-            color: #14556A;
-            text-transform: uppercase;
-        }
+
         h3{
             width: 60%;
             color: #fff;
@@ -42,6 +39,10 @@
 }
 .program-content{
     margin-bottom: 50px;
+    h2.program-selected{
+        color: #14556A;
+        text-transform: uppercase;
+    }
     h2{
         color:#0CC8F4;
         text-transform: uppercase;
