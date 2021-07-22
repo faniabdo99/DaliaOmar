@@ -38,7 +38,7 @@
         return '
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-12 mb-4">
+                <div class="col-lg-4 col-12 mb-4 offset-lg-3">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
                         <div class="single-program-card-content text-center text-uppercase">
@@ -46,9 +46,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-12 program-content">
+                <!-- <div class="col-lg-8 col-12 program-content">
                     <h2 class="program-selected">PROGRAM SELECTED</h2>
-                </div>
+                </div> -->
             </div>
         </div>';
     }
