@@ -300,7 +300,7 @@ footer {
     margin-bottom: 15px;
     line-height: 2em;
     color: #14556a; }
-  .program-content .extra-note {
+  .program-content .extra-note, .program-content .extra-note strong {
     color: #46a28d !important;
     text-transform: capitalize !important; }
   .program-content .book-now-btn {

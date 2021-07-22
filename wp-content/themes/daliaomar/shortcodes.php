@@ -14,18 +14,18 @@
                 <div class="col-lg-4 col-12 mb-4">
                     <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                         <img src="'.get_field('color_image').'" />
-                        <div class="single-program-card-content">
+                        <div class="single-program-card-content text-center">
                             <h3>'.get_the_title().'</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-12 program-content">
                     <h2>'.get_the_title().'</h2>
+                    <br><br>
                     '.get_the_content().'
+                    <p class="extra-note"><strong>*For 2 months and 3 months programs: Exercise:</strong></p>
                     <br>
-                    <div class="text-center">
-                        <a href="'.get_the_permalink().'" class="book-now-btn">BOOK NOW</a>
-                    </div>
+                    <a href="'.get_the_permalink().'" class="book-now-btn">BOOK NOW</a>
                 </div>';
             }
             $Programs .= '</div></div>';
@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-lg-8 col-12 program-content">
                     <h2>'.get_the_title().'</h2>
-                    <br>
+                    <br><br>
                     '.get_the_content().'
                 </div>
             </div>
