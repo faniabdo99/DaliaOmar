@@ -370,7 +370,7 @@ footer .footer-copywrites {
 }
 
 .program-content {
-  margin-bottom: 50px;
+  margin-bottom: 250px;
 }
 .program-content h2.program-selected {
   color: #14556A;
@@ -388,7 +388,6 @@ footer .footer-copywrites {
 }
 .program-content p {
   margin-bottom: 15px;
-  line-height: 2em;
   color: #14556a;
 }
 .program-content .extra-note, .program-content .extra-note strong {
