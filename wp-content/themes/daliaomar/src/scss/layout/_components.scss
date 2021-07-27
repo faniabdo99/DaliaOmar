@@ -138,6 +138,7 @@
             left: 0;
             right: 0;
             padding-bottom: 0;
+            text-align: center;
             h3{
                 width: 60%;
                 color: #fff;
@@ -149,8 +150,8 @@
                 border-bottom: 2px solid #fff;
             }
             a{
+                display: block;
                 color:#fff;
-                text-align: center;
             }
         }
     }

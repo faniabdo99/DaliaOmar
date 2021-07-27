@@ -289,6 +289,7 @@ footer .footer-copywrites {
   left: 0;
   right: 0;
   padding-bottom: 0;
+  text-align: center;
 }
 .programs-section .single-program .single-program-card-content h3 {
   width: 60%;
@@ -301,8 +302,8 @@ footer .footer-copywrites {
   border-bottom: 2px solid #fff;
 }
 .programs-section .single-program .single-program-card-content a {
+  display: block;
   color: #fff;
-  text-align: center;
 }
 
 .classes-section {
