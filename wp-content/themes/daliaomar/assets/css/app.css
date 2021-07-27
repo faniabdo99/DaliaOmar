@@ -278,6 +278,10 @@ footer .footer-copywrites {
   height: 400px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+.programs-section .single-program.single-class {
+  height: 425px;
+  border-radius: 25px;
+}
 .programs-section .single-program img {
   width: 100%;
   position: absolute;
