@@ -40,10 +40,13 @@ a {
 
 nav {
   background-color: #f2f1eb;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+nav .logo-img {
+  width: 450px;
 }
 nav .logo-img img {
   width: 250px;
@@ -51,14 +54,17 @@ nav .logo-img img {
   margin: auto;
   display: block;
 }
+nav .navbar-nav {
+  align-items: center;
+  margin: auto;
+}
 nav .nav-item {
   width: 200px;
-  text-align: center;
 }
 nav .nav-item .nav-link {
   color: #14556a;
   font-size: 0.8em;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 nav .dropdown-menu {
   border: none;
@@ -74,6 +80,32 @@ nav .dropdown-menu li:last-child {
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) and (max-width: 1400px) {
+  nav {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  nav .logo-img {
+    width: 350px;
+  }
+  nav .logo-img img {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  nav .nav-item {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+  }
+  nav .nav-item .nav-link {
+    color: #14556a;
+    font-size: 0.8em;
+    margin-left: 15px;
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .upper-nav {
     display: flex;
