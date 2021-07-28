@@ -26,7 +26,7 @@
                         <a class="nav-link" href="/about-us">MEET DALIA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/health-nutrition-coaching">HEALTH & NUTRITION COACHING</a>
+                        <a class="nav-link" href="/health-nutrition-coaching"><span class="text-center">HEALTH & NUTRITION COACHING</span></a>
                     </li>
                 </ul>
                 <a class="logo-img" href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.png" alt="Dalia Omar" title="Dalia Omar" ></a>
