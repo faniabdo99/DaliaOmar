@@ -31,11 +31,28 @@
                 </ul>
                 <a class="logo-img" href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.png" alt="Dalia Omar" title="Dalia Omar" ></a>
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="/excerscise">EXERCISE</a>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            EXERCISE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/class/zumba">ZUMBA</a></li>
+                            <li><a class="dropdown-item" href="/class/pilates-class">PILATES</a></li>
+                            <li><a class="dropdown-item" href="/class/bb-plus">BOOTYBAREE</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/wellness-hub">WELLNESS HUB</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        WELLNESS HUB
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="/recipes">RECIPES</a></li>
+                            <li><a class="dropdown-item" href="/exercises-from-home/">EXERCISE AT HOME</a></li>
+                            <li><a class="dropdown-item" href="/blog">TIPS & TRICKS</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/contact-us">CONTACT US</a>

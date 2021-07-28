@@ -52,13 +52,26 @@ nav .logo-img img {
   display: block;
 }
 nav .nav-item {
-  max-width: 250px;
+  width: 200px;
   text-align: center;
 }
 nav .nav-item .nav-link {
   color: #14556a;
   font-size: 0.8em;
   margin-left: 30px;
+}
+nav .dropdown-menu {
+  border: none;
+  padding: 15px;
+  font-size: 0.9em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #333333;
+}
+nav .dropdown-menu li {
+  margin-bottom: 10px;
+}
+nav .dropdown-menu li:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
@@ -73,6 +86,7 @@ nav .nav-item .nav-link {
   .upper-nav a.logo-img img {
     width: 150px;
     height: auto;
+    text-align: center;
   }
   .upper-nav .navbar-toggler {
     display: block;
