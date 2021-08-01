@@ -5,9 +5,10 @@
             'post_type' => 'program',
             'posts_per_page' => -1,
             'orderby' => 'menu_order',
-            'order' => 'DESC',
+            'order' => 'DESC'
         ];
         $query = new WP_Query($args);
+        echo "Last SQL-Query: {$query->request}";
         $Programs = '<div class="container"><div class="row">';
         if($query->have_posts()){
             while($query->have_posts()){
