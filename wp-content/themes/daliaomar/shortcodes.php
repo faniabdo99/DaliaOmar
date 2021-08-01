@@ -3,7 +3,8 @@
     function daliaomar_programs_list(){
         $args = [
             'post_type' => 'program',
-            'posts_per_page' => -1
+            'posts_per_page' => -1,
+            'orderby' => 'menu_order'
         ];
         $query = new WP_Query($args);
         $Programs = '<div class="container"><div class="row">';
@@ -24,7 +25,9 @@
                     <br>
                     '.get_the_content().'
                     <br>
-                    <a href="'.get_the_permalink().'" class="book-now-btn">BOOK NOW</a>
+                    <div class="text-center">
+                        <a href="'.get_the_permalink().'" class="book-now-btn">BOOK NOW</a>
+                    </div>
                 </div>';
             }
             $Programs .= '</div></div>';

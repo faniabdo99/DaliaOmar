@@ -1,11 +1,11 @@
 .single-program-page-item{
     background-size: cover;
     background-position: top top;
-    height: 500px;
+    height: 600px;
     background-color: #fff;
     position: relative;
     border-radius: 25px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     img{
         width: 100%;
         height: 200px;
@@ -19,7 +19,6 @@
         left: 0;
         right: 0;
         padding-bottom: 0;
-
         h3{
             width: 60%;
             color: #fff;
@@ -30,8 +29,11 @@
             border-top: 2px solid #fff;
             border-bottom: 2px solid #fff;
         }
+        p{
+            margin-bottom: -10px;
+        }
         a{
-            color:#fff;
+            color: #fff;
             display: block;
             text-align: center;
         }
@@ -54,12 +56,18 @@
         margin-bottom: 0;
     }
     p{
-        margin-bottom: 15px;
+        margin-bottom: 0px;
         color: #14556a;
+        strong:last-child{
+            margin-bottom: 20px;
+            display: block;
+        }
     }
     .extra-note, .extra-note strong{
         color: #46a28d !important;
         text-transform: capitalize !important;
+        margin-top: 20px;
+        font-weight: bold;
     }
     .book-now-btn{
         border:2px solid #14556A;

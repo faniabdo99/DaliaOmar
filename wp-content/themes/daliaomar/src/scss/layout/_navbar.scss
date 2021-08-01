@@ -33,7 +33,7 @@ nav{
         img{
             width: 250px;
             height: 50px;
-            margin: auto;
+            margin: 0 0 0px 145px;
             display: block;
         }
     }
@@ -54,7 +54,8 @@ nav{
         padding:15px;
         font-size: 0.9em;
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
-        color: #333333;
+        color: #14556a;
+        background-color:#f2f1eb;
         li{
             margin-bottom: 10px;
             &:last-child{
@@ -62,6 +63,9 @@ nav{
             }
         }
     }
+}
+.second-nav-menu{
+    margin-right:98px !important;
 }
 @media (min-width: 768px) and (max-width:1400px) {
     nav{
@@ -87,6 +91,9 @@ nav{
                 text-align: center;
             }
         } 
+    }
+    .second-nav-menu{
+        margin-right:98px !important;
     }
 }
 @media (max-width:768px) {
