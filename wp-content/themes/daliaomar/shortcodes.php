@@ -4,7 +4,8 @@
         $args = [
             'post_type' => 'program',
             'posts_per_page' => -1,
-            'orderby' => 'menu_order title'
+            'orderby' => 'menu_order',
+            'order' => 'DESC',
         ];
         $query = new WP_Query($args);
         $Programs = '<div class="container"><div class="row">';
