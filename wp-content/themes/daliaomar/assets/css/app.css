@@ -51,7 +51,7 @@ nav .logo-img {
 nav .logo-img img {
   width: 250px;
   height: 50px;
-  margin: 0 0 0px 150px;
+  margin: 0 0 0px 145px;
   display: block;
 }
 nav .navbar-nav {
@@ -71,19 +71,18 @@ nav .dropdown-menu {
   padding: 15px;
   font-size: 0.9em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  background-color: #f2f1eb !important;
+  color: #14556a;
+  background-color: #f2f1eb;
 }
 nav .dropdown-menu li {
   margin-bottom: 10px;
 }
-nav .dropdown-menu li a{
-  color: #14556a;
-}
 nav .dropdown-menu li:last-child {
   margin-bottom: 0;
 }
-.second-nav-menu{
-    margin-right:98px !important;
+
+.second-nav-menu {
+  margin-right: 98px !important;
 }
 
 @media (min-width: 768px) and (max-width: 1400px) {
@@ -111,9 +110,10 @@ nav .dropdown-menu li:last-child {
     margin-left: 15px;
     text-align: center;
   }
-  .second-nav-menu{
-    margin-right:98px !important;
-    }
+
+  .second-nav-menu {
+    margin-right: 98px !important;
+  }
 }
 @media (max-width: 768px) {
   .upper-nav {
@@ -418,6 +418,9 @@ footer .footer-copywrites {
   border-top: 2px solid #fff;
   border-bottom: 2px solid #fff;
 }
+.single-program-page-item .single-program-card-content p {
+  margin-bottom: -10px;
+}
 .single-program-page-item .single-program-card-content a {
   color: #fff;
   display: block;
@@ -426,37 +429,34 @@ footer .footer-copywrites {
 
 .program-content {
   margin-bottom: 250px;
-  align-items: center;
 }
 .program-content h2.program-selected {
   color: #14556A;
   text-transform: uppercase;
 }
 .program-content h2 {
-    margin-top: 50px;
-    color: #0CC8F4;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  color: #0CC8F4;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 .program-content strong {
   color: #46a28d;
   text-transform: uppercase;
   margin-bottom: 0;
 }
-.program-content p strong:last-child {
-    margin-bottom: 20px;
-    display: block;
-}
 .program-content p {
   margin-bottom: 0px;
   color: #14556a;
+}
+.program-content p strong:last-child {
+  margin-bottom: 20px;
+  display: block;
 }
 .program-content .extra-note, .program-content .extra-note strong {
   color: #46a28d !important;
   text-transform: capitalize !important;
   margin-top: 20px;
   font-weight: bold;
-
 }
 .program-content .book-now-btn {
   border: 2px solid #14556A;
@@ -464,7 +464,6 @@ footer .footer-copywrites {
   color: #14556A;
   border-radius: 6px;
   transition: all ease 0.3s;
-  font-weight: bold;
 }
 .program-content .book-now-btn:hover {
   background-color: #14556A;
