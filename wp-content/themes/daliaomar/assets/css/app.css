@@ -385,6 +385,10 @@ footer .footer-copywrites {
   color: #14556a;
 }
 
+.single-program-container {
+  margin-bottom: 250px;
+}
+
 .single-program-page-item {
   background-size: cover;
   background-position: top top;
@@ -427,9 +431,6 @@ footer .footer-copywrites {
   text-align: center;
 }
 
-.program-content {
-  margin-bottom: 250px;
-}
 .program-content h2.program-selected {
   color: #14556A;
   text-transform: uppercase;
