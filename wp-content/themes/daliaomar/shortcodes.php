@@ -13,7 +13,7 @@
             while($query->have_posts()){
                 $query->the_post();
                 $Programs .= '
-                <div class="row align-items-center mb-5 single-program-container">
+                <div class="row align-items-center single-program-container">
                     <div class="col-lg-4 col-12">
                         <div class="single-program-page-item" style="background-image:url('.get_the_post_thumbnail_url().')">
                             <img src="'.get_field('color_image').'" />
