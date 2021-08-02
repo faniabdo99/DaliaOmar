@@ -39,7 +39,7 @@
                             <li><a class="dropdown-item" href="/excerscise">ALL CLASSES</a></li>
                             <li><a class="dropdown-item" href="/class/zumba">ZUMBA</a></li>
                             <li><a class="dropdown-item" href="/class/pilates-class">PILATES</a></li>
-                            <li><a class="dropdown-item" href="/class/bb-plus">BOOTYBAREE</a></li>
+                            <li><a class="dropdown-item" href="/class/bb-plus">BOOTYBARRE</a></li>
                             <li><a class="dropdown-item" href="/exercise-scheduled">CLASS SCHEDULE</a></li>
 
                         </ul>
