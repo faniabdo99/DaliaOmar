@@ -4,7 +4,7 @@
                 <div class="col-lg-4 col-12">
                     <div class="footer-section">
                         <h5>DALIA OMAR</h5>
-                        <p>I work with my clients step by step to incorporate new habits, foods and exercise routines into their lives, 
+                        <p class="footer-about-dalia">I work with my clients step by step to incorporate new habits, foods and exercise routines into their lives, 
                             empowering them to take control of their health and weight. My aim is to create with each of them a sustainable and 
                             balanced way of living that eventually becomes a part of them.</p>
                     </div>

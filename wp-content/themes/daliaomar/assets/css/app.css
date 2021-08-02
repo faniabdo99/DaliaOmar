@@ -170,6 +170,9 @@ footer .footer-section h5 {
 footer .footer-section p {
   font-size: 0.9em;
 }
+footer .footer-section p.footer-about-dalia {
+  color: #14556a;
+}
 footer .footer-section ul {
   list-style-type: none;
 }
