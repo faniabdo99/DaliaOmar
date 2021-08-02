@@ -4,7 +4,7 @@
                 <div class="col-lg-4 col-12">
                     <div class="footer-section">
                         <h5>DALIA OMAR</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci esse eius quo, dignissimos quis distinctio ut rerum totam perferendis sint pariatur? Pariatur ad dolore ex?</p>
+                        <p>I believe that clean eating and exercise have the power to transform people's lives into healthier happier ones. I work with my clients step by step to incorporate new habits, foods and exercise programs into their lives, empowering them to take control of their health and weight. My aim is to create with each of them a sustainable and balanced way of living that eventually becomes a part of them.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12">
