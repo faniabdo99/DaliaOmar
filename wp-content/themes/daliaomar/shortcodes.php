@@ -14,7 +14,7 @@
                 $query->the_post();
                 $Programs .= '
                 <div class="row align-items-center single-program-container">
-                    <div class="col-lg-4 col-12">
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
                     <div class="single-program-page-item" style="background:url('.get_the_post_thumbnail_url().') center top no-repeat;background-size:cover;">
                             <img src="'.get_field('color_image').'" />
                             <div class="single-program-card-content text-center text-uppercase">

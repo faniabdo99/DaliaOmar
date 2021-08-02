@@ -58,6 +58,9 @@ nav{
         background-color:#f2f1eb;
         li{
             margin-bottom: 10px;
+            a{
+                color: $brand;
+            }
             &:last-child{
                 margin-bottom: 0;
             }
@@ -130,6 +133,8 @@ nav{
                 text-align: center;
             }
         } 
-
+    }
+    .second-nav-menu{
+        margin-right:0px !important;
     }
 }

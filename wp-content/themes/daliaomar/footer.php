@@ -4,7 +4,9 @@
                 <div class="col-lg-4 col-12">
                     <div class="footer-section">
                         <h5>DALIA OMAR</h5>
-                        <p>I believe that clean eating and exercise have the power to transform people's lives into healthier happier ones. I work with my clients step by step to incorporate new habits, foods and exercise programs into their lives, empowering them to take control of their health and weight. My aim is to create with each of them a sustainable and balanced way of living that eventually becomes a part of them.</p>
+                        <p>I believe that clean eating and exercise have the power to transform people's lives into healthier happier ones. 
+                           I work with my clients step by step to incorporate new habits, foods and exercise routines into their lives.
+                           My aim is to create with each of them a sustainable and  balanced way of living that eventually becomes a part of them.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12">

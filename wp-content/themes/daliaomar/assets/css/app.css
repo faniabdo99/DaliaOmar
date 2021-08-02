@@ -77,6 +77,9 @@ nav .dropdown-menu {
 nav .dropdown-menu li {
   margin-bottom: 10px;
 }
+nav .dropdown-menu li a {
+  color: #14556a;
+}
 nav .dropdown-menu li:last-child {
   margin-bottom: 0;
 }
@@ -150,6 +153,10 @@ nav .dropdown-menu li:last-child {
     font-size: 0.8em;
     margin-left: 30px;
     text-align: center;
+  }
+
+  .second-nav-menu {
+    margin-right: 0px !important;
   }
 }
 footer {
