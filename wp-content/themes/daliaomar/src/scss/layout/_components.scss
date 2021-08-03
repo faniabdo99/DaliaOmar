@@ -181,12 +181,14 @@
 }
 @media (max-width:600px){
     .customers-reviews{
-        .owl-nav{
-            .owl-prev{
-                left:10px !important;
-            }
-            .owl-next{
-                right:10px !important;
+        .owl-controls{
+            .owl-nav{
+                .owl-prev{
+                    left:10px !important;
+                }
+                .owl-next{
+                    right:10px !important;
+                }
             }
         }
     }
