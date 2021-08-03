@@ -311,7 +311,7 @@ footer .footer-copywrites {
   display: inline;
   margin-bottom: 25px;
 }
-.customers-reviews .owl-carousel .owl-item strong {
+.customers-reviews .owl-carousel .owl-item strong, .customers-reviews .owl-carousel .owl-item b {
   color: #14556a;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -396,11 +396,11 @@ footer .footer-copywrites {
 }
 
 @media (max-width: 600px) {
-  .customers-reviews .owl-nav .owl-prev {
-    left: 10px;
+  .customers-reviews .owl-controls .owl-nav .owl-prev {
+    left: 10px !important;
   }
-  .customers-reviews .owl-nav .owl-next {
-    right: 10px;
+  .customers-reviews .owl-controls .owl-nav .owl-next {
+    right: 10px !important;
   }
 }
 .single-program-container {
