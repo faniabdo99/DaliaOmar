@@ -50,6 +50,13 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
                             <li><a class="dropdown-item" href="/wellness-hub">WELLNESS HUB</a></li>
+                            <li><a class="nav-link dropdown-toggle" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">EVENTS</a></li>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                                    <li><a class="dropdown-item" href="/wellness-hub">WELLNESS HUB</a></li>
+                                    <li><a class="dropdown-item" href="/recipes">RECIPES</a></li>
+                                    <li><a class="dropdown-item" href="/exercises-from-home/">EXERCISE AT HOME</a></li>
+                                    <li><a class="dropdown-item" href="/blog">TIPS & TRICKS</a></li>
+                                </ul>
                             <li><a class="dropdown-item" href="/recipes">RECIPES</a></li>
                             <li><a class="dropdown-item" href="/exercises-from-home/">EXERCISE AT HOME</a></li>
                             <li><a class="dropdown-item" href="/blog">TIPS & TRICKS</a></li>
