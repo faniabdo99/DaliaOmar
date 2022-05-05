@@ -95,15 +95,17 @@
         display: inline;
         margin-bottom: 25px;
     }
-    .owl-carousel .owl-item strong{
+    .owl-carousel .owl-item strong , .owl-carousel .owl-item b{
         color: $brand;
         text-transform: uppercase;
         font-size: 1.2em;
     }
     .owl-carousel .owl-item p{
         color: $brand;
-        text-transform: uppercase;
-        font-size: 1em;
+        width: 80%;
+        margin: auto;
+        font-size: 0.9em;
+        text-transform: none !important;
     }
     .owl-dots{
         display: none !important;
@@ -112,7 +114,7 @@
         div{
             background-color: $brand;
         }
-    }
+    } 
 }
 .programs-section{
     background-color: $lightyellow;
@@ -122,9 +124,13 @@
     .single-program{
         background-color: #fff;
         position: relative;
-        border-radius: 14px;
+        border-radius: 27px;
         height: 400px;
         box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        &.single-class{
+            height: 425px;
+            border-radius: 25px;
+        }
         img{
             width: 100%;
             position: absolute;
@@ -136,17 +142,19 @@
             left: 0;
             right: 0;
             padding-bottom: 0;
+            text-align: center;
             h3{
                 width: 60%;
                 color: #fff;
                 font-weight: bold;
-                font-size: 1.4em;
+                font-size: 1.2em;
                 margin: 0 auto 15px auto;
                 padding: 10px 0px;
                 border-top: 2px solid #fff;
                 border-bottom: 2px solid #fff;
             }
             a{
+                display: block;
                 color:#fff;
             }
         }
@@ -167,6 +175,20 @@
             li{
                 margin-bottom: 30px;
                 color: $brand;
+            }
+        }
+    }
+}
+@media (max-width:600px){
+    .customers-reviews{
+        .owl-controls{
+            .owl-nav{
+                .owl-prev{
+                    left:10px !important;
+                }
+                .owl-next{
+                    right:10px !important;
+                }
             }
         }
     }

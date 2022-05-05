@@ -1,4 +1,5 @@
 .upper-nav{
+    display: none;
     padding: 15px 40px;
     text-align: right;
     background-color: $lightgray;
@@ -7,6 +8,7 @@
         font-size: 0.8em;
     }
     a.logo-img{
+        display: none;
         img{
             width: 250px;
             height: 50px;
@@ -14,20 +16,125 @@
             display: block;
         }
     }
+    .navbar-toggler{
+        text-align: center;
+        color: $brand;
+        display: none;
+    }
 }
 nav{
     background-color: $lightgray;
-    padding-right:20px;
-    padding-left:20px;
-    padding-top:40px !important; 
-    padding-bottom:40px !important;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:30px !important; 
+    padding-bottom:30px !important;
+    .logo-img{
+        width: 450px;
+        img{
+            width: 250px;
+            height: 50px;
+            margin: 0 0 0px 145px;
+            display: block;
+        }
+    }
+    .navbar-nav{
+        align-items: center;
+        margin: auto;
+    }
     .nav-item{
-        max-width: 250px;
-        text-align: center;
+        width: 200px;
         .nav-link{
             color: $brand;
             font-size: 0.8em;
-            margin-left: 30px;
+            margin-left: 10px;
         }
-    } 
+    }
+    .dropdown-menu{
+        border: none;
+        padding:15px;
+        font-size: 0.9em;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        color: #14556a;
+        background-color:#f2f1eb;
+        li{
+            margin-bottom: 10px;
+            a{
+                color: $brand;
+            }
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.second-nav-menu{
+    margin-right:98px !important;
+}
+@media (min-width: 768px) and (max-width:1400px) {
+    nav{
+        padding-top:15px !important; 
+        padding-bottom:15px !important;
+        .logo-img{
+            width: 350px;
+            img{
+                width: 200px;
+                height: auto;
+                margin: auto;
+                display: block;
+            }
+        }
+        .nav-item{
+            width: 150px;
+            text-align: center;
+            margin: auto;
+            .nav-link{
+                color: $brand;
+                font-size: 0.8em;
+                margin-left: 15px;
+                text-align: center;
+            }
+        } 
+    }
+    .second-nav-menu{
+        margin-right:98px !important;
+    }
+}
+@media (max-width:768px) {
+    .upper-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        a.logo-img{
+            display: block;
+            img{
+                width: 150px;
+                height: auto;
+                text-align: center;
+            }
+        }
+        .navbar-toggler{
+            display: block;
+        }
+    }
+    nav{
+        padding-top:0 !important; 
+        padding-bottom:0 !important;
+        .logo-img{
+            display: none;
+        }
+        .nav-item{
+            width: 100%;
+            text-align: center;
+            margin: auto;
+            .nav-link{
+                color: $brand;
+                font-size: 0.8em;
+                margin-left: 30px;
+                text-align: center;
+            }
+        } 
+    }
+    .second-nav-menu{
+        margin-right:0px !important;
+    }
 }

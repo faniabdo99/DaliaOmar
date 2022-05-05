@@ -26,7 +26,7 @@ define( 'DB_NAME', 'dalia' );
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '123456789' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -63,7 +63,7 @@ define( 'NONCE_SALT',       'D2({-5HacPYZjg[ayG942[,40;r:$k@%DwcF}bSIk7Eq!Xz<ecV
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'doDbPref_';
+$table_prefix = 'dodbpref_';
 
 /**
  * For developers: WordPress debugging mode.
